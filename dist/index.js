@@ -4,6 +4,7 @@ webpackJsonp([0],{
 /***/ (function(module, exports, __webpack_require__) {
 
 const _ = __webpack_require__(10)
+__webpack_require__(53)
 module.exports = function() {
   console.log('b')
   let users = [
@@ -22,35 +23,52 @@ module.exports = function() {
 /***/ 53:
 /***/ (function(module, exports) {
 
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ 54:
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(55)
 module.exports = function() {
   console.log('c')
 }
 
 /***/ }),
 
-/***/ 54:
+/***/ 55:
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ 57:
 /***/ (function(module, exports) {
 
 console.log('load.js')
 
 /***/ }),
 
-/***/ 55:
+/***/ 58:
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(56);
-module.exports = __webpack_require__(54);
+__webpack_require__(59);
+module.exports = __webpack_require__(57);
 
 
 /***/ }),
 
-/***/ 56:
+/***/ 59:
 /***/ (function(module, exports, __webpack_require__) {
 
 const a = __webpack_require__(18)
 const b = __webpack_require__(52)
-const c = __webpack_require__(53)
-const d = __webpack_require__(57)
+const c = __webpack_require__(54)
+const d = __webpack_require__(61)
+
+__webpack_require__(56)
 
 a()
 b()
@@ -59,7 +77,7 @@ d()
 
 /***/ }),
 
-/***/ 57:
+/***/ 61:
 /***/ (function(module, exports) {
 
 module.exports = function() {
@@ -68,5 +86,5 @@ module.exports = function() {
 
 /***/ })
 
-},[55]);
+},[58]);
 //# sourceMappingURL=index.js.map

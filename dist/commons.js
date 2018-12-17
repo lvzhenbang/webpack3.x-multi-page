@@ -34,7 +34,7 @@
 /******/
 /******/ 	// objects to store loaded and loading chunks
 /******/ 	var installedChunks = {
-/******/ 		4: 0
+/******/ 		3: 0
 /******/ 	};
 /******/
 /******/ 	// The require function
@@ -1055,10 +1055,11 @@ module.exports = exports['default'];
 /***/ (function(module, exports, __webpack_require__) {
 
 const _ = __webpack_require__(10)
+__webpack_require__(60)
 module.exports = function() {
   console.log('a')
-  let arr = [1,2,3,4,5]
-  arr = _.filter(arr, function(item) {
+  const arr = [1,2,3,4,5]
+  _.filter(arr, function(item) {
     return item%2===0
   })
   console.log(arr)
@@ -1946,6 +1947,25 @@ exports.default = function (min, max) {
 };
 
 module.exports = exports["default"];
+
+/***/ }),
+/* 52 */,
+/* 53 */,
+/* 54 */,
+/* 55 */,
+/* 56 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 57 */,
+/* 58 */,
+/* 59 */,
+/* 60 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
 
 /***/ })
 /******/ ]);

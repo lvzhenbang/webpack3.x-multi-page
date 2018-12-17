@@ -4,6 +4,7 @@ webpackJsonp([2],{
 /***/ (function(module, exports, __webpack_require__) {
 
 const _ = __webpack_require__(10)
+__webpack_require__(53)
 module.exports = function() {
   console.log('b')
   let users = [
@@ -19,24 +20,39 @@ module.exports = function() {
 
 /***/ }),
 
-/***/ 58:
+/***/ 53:
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ 62:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(59);
+module.exports = __webpack_require__(63);
 
 
 /***/ }),
 
-/***/ 59:
+/***/ 63:
 /***/ (function(module, exports, __webpack_require__) {
 
 const a = __webpack_require__(18)
 const b = __webpack_require__(52)
-
+__webpack_require__(56)
+__webpack_require__(64)
 a()
 b()
 
+/***/ }),
+
+/***/ 64:
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
 /***/ })
 
-},[58]);
+},[62]);
 //# sourceMappingURL=aboutUs.js.map
