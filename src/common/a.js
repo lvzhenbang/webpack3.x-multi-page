@@ -1,4 +1,7 @@
 const _ = require('loadsh')
+require('../../assets/css/header.css')
+require('../../assets/css/footer.css')
+require('../../assets/css/container.css')
 require('../../assets/css/a.css')
 module.exports = function() {
   console.log('a')

@@ -27,32 +27,33 @@ module.exports = function() {
 
 /***/ }),
 
-/***/ 62:
+/***/ 65:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(63);
+module.exports = __webpack_require__(66);
 
 
 /***/ }),
 
-/***/ 63:
+/***/ 66:
 /***/ (function(module, exports, __webpack_require__) {
 
 const a = __webpack_require__(18)
 const b = __webpack_require__(52)
 __webpack_require__(56)
-__webpack_require__(64)
+__webpack_require__(67)
 a()
 b()
+document.body.querySelector('.container').innerHTML = '<h1> 这是 about-us 页</h1>'
 
 /***/ }),
 
-/***/ 64:
+/***/ 67:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ })
 
-},[62]);
+},[65]);
 //# sourceMappingURL=aboutUs.js.map

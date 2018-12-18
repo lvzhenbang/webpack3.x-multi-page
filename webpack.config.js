@@ -29,6 +29,9 @@ module.exports = {
           fallback: 'style-loader',
           use: 'css-loader'
         })
+      }, {
+        test: /\.pug$/,
+        loader: 'pug-loader'
       }
     ]
   },
@@ -49,7 +52,9 @@ module.exports = {
         'keywords': 'webpack, multi-page, 首页',
         'author': 'https://github.com/lvzhenbang/'
       },
-      favicon: './assets/19884132.jpg'
+      favicon: './assets/19884132.jpg',
+      template: './pages/template.pug',
+      minify: true
     }),
     new HtmlWebapckPlugin({
       /* inital page */
@@ -62,7 +67,9 @@ module.exports = {
         'keywords': 'webpack, multi-page, about-us',
         'author': 'https://github.com/lvzhenbang/'
       },
-      favicon: './assets/19884132.jpg'
+      favicon: './assets/19884132.jpg',
+      template: './pages/template.pug',
+      minify: true
     }),
     new HtmlWebapckPlugin({
       /* inital page */
@@ -75,7 +82,9 @@ module.exports = {
         'keywords': 'webpack, multi-page, contact-us',
         'author': 'https://github.com/lvzhenbang/'
       },
-      favicon: './assets/19884132.jpg'
+      favicon: './assets/19884132.jpg',
+      template: './pages/template.pug',
+      minify: true
     }),
     new ExtractTextPlugin({
       filename: '[name].css',

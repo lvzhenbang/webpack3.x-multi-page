@@ -9,3 +9,4 @@ a()
 b()
 c()
 d()
+document.body.querySelector('.container').innerHTML = '<h1> 这是 index-us 页</h1>'

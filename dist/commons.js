@@ -1056,6 +1056,9 @@ module.exports = exports['default'];
 
 const _ = __webpack_require__(10)
 __webpack_require__(60)
+__webpack_require__(61)
+__webpack_require__(62)
+__webpack_require__(63)
 module.exports = function() {
   console.log('a')
   const arr = [1,2,3,4,5]
@@ -1963,6 +1966,24 @@ module.exports = exports["default"];
 /* 58 */,
 /* 59 */,
 /* 60 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 61 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 62 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 63 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin

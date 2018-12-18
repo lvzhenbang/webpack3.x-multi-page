@@ -24,16 +24,16 @@ console.log('load.js')
 
 /***/ }),
 
-/***/ 65:
+/***/ 68:
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(66);
+__webpack_require__(69);
 module.exports = __webpack_require__(57);
 
 
 /***/ }),
 
-/***/ 66:
+/***/ 69:
 /***/ (function(module, exports, __webpack_require__) {
 
 const a = __webpack_require__(18)
@@ -41,9 +41,10 @@ const c = __webpack_require__(54)
 __webpack_require__(56)
 a()
 c()
+document.body.querySelector('.container').innerHTML = '<h1> 这是 contact-us 页</h1>'
 
 
 /***/ })
 
-},[65]);
+},[68]);
 //# sourceMappingURL=contactUs.js.map

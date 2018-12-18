@@ -66,7 +66,7 @@ module.exports = __webpack_require__(57);
 const a = __webpack_require__(18)
 const b = __webpack_require__(52)
 const c = __webpack_require__(54)
-const d = __webpack_require__(61)
+const d = __webpack_require__(64)
 
 __webpack_require__(56)
 
@@ -74,10 +74,11 @@ a()
 b()
 c()
 d()
+document.body.querySelector('.container').innerHTML = '<h1> 这是 index-us 页</h1>'
 
 /***/ }),
 
-/***/ 61:
+/***/ 64:
 /***/ (function(module, exports) {
 
 module.exports = function() {
